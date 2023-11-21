@@ -9,26 +9,25 @@ const GreyBox = () => {
     top: '1196px',
     left: '947px',
     right: '96px',
-    // Add other styles (padding, margin, etc.) as necessary
   };
 
   const secondBoxStyle = {
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'center',
-    backgroundColor: '#07071C', // Updated color for the second box
+    backgroundColor: '#07071C', 
     width: '641px',
     height: '115px',
     position: 'absolute',
-    left: '121px', // Adjust the left position
-    top: '1209px', // Adjust the top position
-    color: '#FFF', // Text color
-    fontFamily: 'Poppins', // Font family
-    fontSize: '20px', // Font size
-    fontStyle: 'normal', // Font style
-    fontWeight: '600', // Font weight
-    lineHeight: 'normal', // Line height
-    // Add other styles (padding, margin, etc.) as necessary
+    left: '121px', 
+    top: '1209px', 
+    color: '#FFF', 
+    fontFamily: 'Poppins', 
+    fontSize: '20px',
+    fontStyle: 'normal', 
+    fontWeight: '600', 
+    lineHeight: 'normal', 
+    
   };
 
   return (
