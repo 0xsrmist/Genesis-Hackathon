@@ -1,6 +1,6 @@
 // SponsorPage.jsx
 import React from 'react';
-import './SponsorPage.css'; // Import your CSS file
+
 
 const sponsorsData = {
   platinum: [
