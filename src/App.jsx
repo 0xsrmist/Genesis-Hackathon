@@ -1,11 +1,11 @@
 import React from "react";
-import navbar from "./components/navbar/Navbar.jsx";
+import Navbar from "./components/navbar/Navbar.jsx";
 
 function App() {
   return (
     <>
       <div className="flex flex-col gap-2 p-2">
-        <navbar />
+        <Navbar />
       </div>
     </>
   );
