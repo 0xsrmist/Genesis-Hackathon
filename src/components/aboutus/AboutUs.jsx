@@ -44,12 +44,5 @@ const GreyBox = () => {
   );
 };
 
-const App = () => {
-  return (
-    <div>
-      <GreyBox />
-    </div>
-  );
-};
 
-export default App;
+export default GreyBox;
