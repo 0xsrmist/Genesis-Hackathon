@@ -1,12 +1,13 @@
-function App() {
+import GreyBox from "./components/faqs/Faqs.jsx";
 
-    return (
-      <>
-        <div className="flex flex-col gap-2 p-2">
-          {/* Import functions here */}
-        </div>
-      </>
-    )
-  }
-  
-  export default App
+function App() {
+  return (
+    <>
+      <div className="flex flex-col gap-2 p-2">
+        <GreyBox />
+      </div>
+    </>
+  );
+}
+
+export default App;
