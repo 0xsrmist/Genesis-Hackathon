@@ -1,4 +1,4 @@
-import logoImage from '../../assets/images/Group 16.svg';
+import logoImage from '../../assets/images/Genesis_logo.svg';
 import React, { useState } from 'react';
 
 export function navbar() {
