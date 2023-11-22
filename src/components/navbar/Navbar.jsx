@@ -1,7 +1,7 @@
 import logoImage from '../../assets/images/Group 16.svg';
 import React, { useState } from 'react';
 
-function navbar() {
+export function navbar() {
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
     const toggleDropdown = () => {
