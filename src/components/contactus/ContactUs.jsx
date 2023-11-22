@@ -1,27 +1,61 @@
-// src/components/ContactUs.js
 import React from 'react';
 
-const ContactUs = () => {
+const ContactUsSection = () => {
   return (
-    <div>
-      <h1>Contact Us</h1>
-      <p>
-        If you have any questions or need assistance, please feel free to reach out to us!
-      </p>
-      <form>
-        <label htmlFor="name">Your Name:</label>
-        <input type="text" id="name" name="name" required />
+    <div
+      style={{
+        backgroundColor: '#120224',
+        color: '#ffffff',
+        padding: '50px',
+        display: 'flex',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+      }}
+    >
+      {/* Left side with two white colored rectangle boxes */}
+      <div>
+        <div
+          style={{
+            backgroundColor: '#ffffff',
+            padding: '20px',
+            marginBottom: '20px',
+            width: '750px',
+            color: 'black', // Set text color to black
+          }}
+        >
+          {/* Content of the first white rectangle box */}
+          <h3>Contact Information</h3>
+          <p>Email: example@example.com</p>
+          <p>Phone: +123 456 7890</p>
+        </div>
+        <div
+          style={{
+            backgroundColor: '#ffffff',
+            padding: '20px',
+            color: 'black', // Set text color to black
+          }}
+        >
+          {/* Content of the second white rectangle box */}
+          <h3>Address</h3>
+          <p>123 Street Name</p>
+          <p>City, Country</p>
+        </div>
+      </div>
 
-        <label htmlFor="email">Your Email:</label>
-        <input type="email" id="email" name="email" required />
-
-        <label htmlFor="message">Your Message:</label>
-        <textarea id="message" name="message" rows="4" required></textarea>
-
-        <button type="submit">Submit</button>
-      </form>
+      {/* Right side with a photo */}
+      <div>
+        <img
+          src="src\components\contactus\Picture1.png" // Replace with the actual URL of your photo
+          alt="Contact"
+          style={{
+            borderRadius: '10px',
+            height: '450px',
+            width: '450px',
+          }}
+        />
+      </div>
     </div>
   );
 };
 
-export default ContactUs;
+export default ContactUsSection;
