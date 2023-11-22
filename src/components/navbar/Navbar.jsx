@@ -1,7 +1,7 @@
 import logoImage from '../../assets/images/Genesis_logo.svg';
 import React, { useState } from 'react';
 
-export function navbar() {
+export default function Navbar() {
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
     const toggleDropdown = () => {
