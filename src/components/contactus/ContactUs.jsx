@@ -45,7 +45,7 @@ const ContactUsSection = () => {
       {/* Right side with a photo */}
       <div>
         <img
-          src="src\components\contactus\Picture1.png" // Replace with the actual URL of your photo
+          src="src\assets\images\Picture1.png" // Replace with the actual URL of your photo
           alt="Contact"
           style={{
             borderRadius: '10px',
