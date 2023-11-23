@@ -38,7 +38,7 @@ export default function Navbar() {
                         <div>
                             <img src={logoImage} alt="Logo" className="p-5 w-5/6 sm:w-6/7 h-auto mx-auto w-full" />
                         </div>
-                        <div className="hidden md:flex space-x-0 p-4 gap-[50px] text-white font-light lg:text-xl text-l">
+                        <div className="hidden md:flex space-x-0 p-4 gap-[50px] text-white font-light text-l">
                             {/* Links for larger screens */}
                             <a href="#home" className="hover:underline hover:text-gray-300">
                                 Home
