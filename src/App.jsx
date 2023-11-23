@@ -1,10 +1,14 @@
+import React from 'react';
+import Conference from './components/conference/Conference.jsx';
+
 function App() {
   return (
-    <>
-      <div className="flex flex-col gap-2 p-2">
-      </div>
-    </>
+    <div>
+      <h1>Test</h1>
+      <Conference />
+    </div>
   );
 }
 
 export default App;
+
