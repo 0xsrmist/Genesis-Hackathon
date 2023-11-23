@@ -1,63 +1,58 @@
-// SponsorPage.jsx
 import React from 'react';
 
+const EventSponsorship = () => {
+  return (
+    <div className="flex flex-col justify-center items-center p-8">
+      {/* PLATINUM Section */}
+      <div className="mb-8 text-center">
+        <h2 className="text-2xl font-bold mb-4 font-poppins text-white">PLATINUM</h2>
+        <div className="flex space-x-4">
+          {renderSponsorBoxes(4)}
+        </div>
+      </div>
 
-const sponsorsData = {
-  platinum: [
-    'platinum1.jpg',
-    'platinum2.jpg',
-    'platinum3.jpg',
-    'platinum4.jpg',
-  ],
-  gold: [
-    'gold1.jpg',
-    'gold2.jpg',
-    'gold3.jpg',
-    'gold4.jpg',
-  ],
-  silver: [
-    'silver1.jpg',
-    'silver2.jpg',
-    'silver3.jpg',
-    'silver4.jpg',
-  ],
+      {/* GOLD Section */}
+      <div className="mb-8 text-center">
+        <h2 className="text-2xl font-bold mb-4 font-poppins text-white">GOLD</h2>
+        <div className="flex space-x-4">
+          {renderSponsorBoxes(4)}
+        </div>
+      </div>
+
+      {/* SILVER Section */}
+      <div className="text-center">
+        <h2 className="text-2xl font-bold mb-4 font-poppins text-white">SILVER</h2>
+        <div className="flex space-x-4">
+          {renderSponsorBoxes(4)}
+        </div>
+      </div>
+    </div>
+  );
 };
 
-const SponsorPage = () => (
-  <div className="sponsor-page">
-    <div className="sponsor-section platinum">
-      <h2>Platinum Sponsors</h2>
-      <div className="sponsor-container">
-        {sponsorsData.platinum.map((sponsor, index) => (
-          <div key={index} className="sponsor-box">
-            <img src={sponsor} alt={`Platinum Sponsor ${index + 1}`} />
-          </div>
-        ))}
-      </div>
-    </div>
+// Helper function to render sponsor boxes
+const renderSponsorBoxes = (count) => {
+  const sponsorImages = [
+    'image1.jpg',
+    'image2.jpg',
+    'image3.jpg',
+    'image4.jpg',
+  ];
 
-    <div className="sponsor-section gold">
-      <h2>Gold Sponsors</h2>
-      <div className="sponsor-container">
-        {sponsorsData.gold.map((sponsor, index) => (
-          <div key={index} className="sponsor-box">
-            <img src={sponsor} alt={`Gold Sponsor ${index + 1}`} />
-          </div>
-        ))}
-      </div>
+  return Array.from({ length: count }, (_, index) => (
+    <div
+      key={index}
+      className="bg-gray-300 rounded-lg overflow-hidden"
+      style={{
+        width: '100px',
+        height: '100px',
+        border: '1px solid rgb(44%,10%,100%)', 
+        borderImageSource: 'linear-gradient(#00008B)',
+      }}
+    >
+      <img src={sponsorImages[index]} alt={`Sponsor ${index + 1}`} className="w-full h-full object-cover" />
     </div>
+  ));
+};
 
-    <div className="sponsor-section silver">
-      <h2>Silver Sponsors</h2>
-      <div className="sponsor-container">
-        {sponsorsData.silver.map((sponsor, index) => (
-          <div key={index} className="sponsor-box">
-            <img src={sponsor} alt={`Silver Sponsor ${index + 1}`} />
-          </div>
-        ))}
-      </div>
-    </div>
-  </div>
-);
-
-export default SponsorPage;
+export default EventSponsorship;
