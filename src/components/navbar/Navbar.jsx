@@ -54,7 +54,7 @@ export default function Navbar() {
                             </a>
                         </div>
                         <div className="flex p-4">
-                            <button className="md:w-[160px] hidden md:flex md:h-[50px] rounded-[25px] tracking-wider font-bold text-white bg-gradient-to-r from-purple-800 to-black text-sm md:text-xl hover:underline">
+                            <button className="lg:w-[160px] lg:h-[50px] md:w-[145px] md:h-[60px] hidden md:flex rounded-[25px] tracking-wider font-bold text-white bg-gradient-to-r from-purple-800 to-black text-sm md:text-xl hover:underline">
                                 REGISTER
                             </button>
                         </div>
