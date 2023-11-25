@@ -1,13 +1,14 @@
-import YellowBox from "./components/contactus/ContactUs.jsx";
+import React from "react";
+
 
 function App() {
   return (
     <>
       <div className="flex flex-col gap-2 p-2">
-        <YellowBox />
       </div>
     </>
   );
 }
+
 
 export default App;
