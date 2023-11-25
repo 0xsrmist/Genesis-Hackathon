@@ -1,0 +1,71 @@
+.rectang{
+    margin-left: 1011px;
+
+}
+
+.conferenceTxt{
+    position: absolute;
+    margin-left: 1071px;
+    margin-right: 132px;
+    padding-top: 14px;
+}
+
+.mainBox{
+    margin-left: 96px;
+    position: absolute;
+}
+
+.pic1{
+    position: absolute;
+    margin-left: 146px;
+    margin-top: 55.94px;
+
+}
+
+.pic2{
+    position: absolute;
+    margin-left: 273px;
+    margin-top: 72px;
+}
+
+.pic3{
+    position: absolute;
+    margin-left: 534.88px;
+    margin-top: 16px;
+}
+
+.pic4{
+    position: absolute;
+    margin-left: 524.63px;
+    margin-top: 127px;
+}
+
+
+.pic5{
+    position: absolute;
+    margin-left: 489px;
+    margin-top: 202.54px;
+}
+
+.pic6{
+    position: absolute;
+    margin-left: 213.94px;
+    margin-top: 345.98px;
+}
+
+.pic7{
+    position: absolute;
+    margin-left: 337.48px;
+    margin-top: 360.1px;
+}
+
+.text{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 792px;
+    margin-top: 127.78px;
+}
