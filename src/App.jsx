@@ -1,10 +1,9 @@
-import GreyBox from "./components/AboutUs/AboutUs";
+import React from "react";
 
 function App() {
   return (
     <>
       <div className="flex flex-col gap-2 p-2">
-        <GreyBox />
       </div>
     </>
   );
