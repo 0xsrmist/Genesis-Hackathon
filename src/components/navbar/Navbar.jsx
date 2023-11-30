@@ -53,8 +53,8 @@ export default function Navbar() {
                                 Contact
                             </a>
                         </div>
-                        <div className="flex">
-                            <button className="md:flex hidden rounded-full py-3 px-8 bg-gradient-to-r from-purple-800 to-black tracking-wider font-bold text-white text-xl hover:underline">
+                        <div className="hidden md:flex">
+                            <button className=" rounded-full py-3 px-8 bg-gradient-to-r from-purple-800 to-black tracking-wider font-bold text-white text-xl hover:underline">
                                 REGISTER
                             </button>
                         </div>

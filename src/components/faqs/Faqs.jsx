@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import arrow from '../../assets/icons/arrow.svg'
+import SectionTitle from '../../ui/sectiontitle/SectionTitle';
 
 const FaqItem = ({ question, answer }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -92,9 +93,11 @@ const FaqSection = () => {
         width: '60%',
         margin: '20px auto',
       }}
-      className="faq-section"
+      className="faq-section flex flex-col gap-5"
     >
-      <div className='text-lg font-bold text-center py-3 text-white'>FAQs</div>
+      <div className='flex items-center justify-center'>
+      <SectionTitle name={'FAQs'}/>
+      </div>
       {faqData.map((item, index) => (
         <FaqItem key={index} question={item.question} answer={item.answer} />
       ))}
