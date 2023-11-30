@@ -1,3 +1,4 @@
+import Faqs from "./components/faqs/Faqs.jsx";
 import React from "react";
 import Navbar from "./components/navbar/Navbar";
 import Hero from "./components/hero/Hero";
@@ -12,6 +13,7 @@ function App() {
         <Hero />
         <AboutUs />
         {/* <Conference /> */}
+        <Faqs/>
         <Footer />
       </div>
     </>
