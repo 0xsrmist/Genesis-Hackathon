@@ -8,7 +8,7 @@ import heroSmallPhoto from "../../assets/images/hero_smallbox.svg";
 
 export default function Hero() {
   return (
-    <div className="Hero-section flex flex-col md:flex-row py-8 lg:px-16 max-h-screen h-auto">
+    <div className="Hero-section flex flex-col md:flex-row lg:px-16 max-h-screen h-auto">
       <div className="section1 p-4 lg:p-16 lg:w-3/5">
         <div className="about">
           <h1 className=" text-7xl flex-shrink-0 font-poppins text-101 font-bold leading-46.2 tracking-wide bg-gradient-to-r from-indigo-800 to-teal-400  bg-clip-text text-transparent mb-2">
@@ -50,7 +50,7 @@ export default function Hero() {
           </button>
         </div>
       </div>
-      <div className="section2 hidden lg:flex flex-col items-center justify-center p-10">
+      <div className="section2 hidden lg:flex flex-col items-center justify-center">
         <img
           src={heroPhoto}
           alt="hero"

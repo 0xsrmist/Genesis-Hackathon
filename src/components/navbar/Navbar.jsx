@@ -10,9 +10,9 @@ export default function Navbar() {
 
     return (
         <>
-            <div className="flex flex-col gap-2 p-2">
-                <nav className="bg-gray-1000 p-7">
-                    <div className="container mx-auto flex justify-between items-center">
+            <div className="flex flex-col gap-3 p-3">
+                <nav className="flex-col md:flex-row flex justify-between w-full">
+                    <div className="w-full flex justify-between items-center">
                         <div className="md:hidden hover:drop-shadow-md">
                             <button
                                 type="button"
@@ -36,9 +36,9 @@ export default function Navbar() {
                             </button>
                         </div>
                         <div>
-                            <img src={logoImage} alt="Logo" className="p-5 w-5/6 sm:w-6/7 h-auto mx-auto w-full" />
+                            <img src={logoImage} alt="Logo" className="p-5 w-5/6 sm:w-6/7 h-auto mx-auto" />
                         </div>
-                        <div className="hidden md:flex space-x-0 p-4 gap-[50px] text-white font-light text-l">
+                        <div className="hidden md:flex md:w-[40%] space-x-0 p-4 gap-3 justify-between text-white font-light text-xl">
                             {/* Links for larger screens */}
                             <a href="#home" className="hover:underline hover:text-gray-300">
                                 Home
@@ -53,15 +53,15 @@ export default function Navbar() {
                                 Contact
                             </a>
                         </div>
-                        <div className="flex p-4">
-                            <button className="lg:w-[160px] lg:h-[50px] md:w-[145px] md:h-[60px] hidden md:flex rounded-[25px] tracking-wider font-bold text-white bg-gradient-to-r from-purple-800 to-black text-sm md:text-xl hover:underline">
+                        <div className="flex">
+                            <button className="md:flex hidden rounded-full py-3 px-8 bg-gradient-to-r from-purple-800 to-black tracking-wider font-bold text-white text-xl hover:underline">
                                 REGISTER
                             </button>
                         </div>
                     </div>
                     {isDropdownOpen && (
-                        <div className="md:hidden drop-shadow-md">
-                            <div className="flex flex-col items-center mt-2">
+                        <div className="md:hidden drop-shadow-md sticky z-20">
+                            <div className="flex flex-col gap-3 items-center mt-2">
                                 <a href="#home" className="text-white hover:underline hover:text-gray-300 font-light py-2">
                                     Home
                                 </a>
@@ -74,7 +74,7 @@ export default function Navbar() {
                                 <a href="#contact" className="text-white hover:underline hover:text-gray-300 font-light py-2">
                                     Contact
                                 </a>
-                                <button className="w-[90%] h-[50px] rounded-[6px] tracking-wider font-bold text-white bg-gradient-to-r from-purple-800 to-black text-sm md:text-xl hover:underline">
+                                <button className=" h-[50px] rounded-full px-10 py-2 tracking-wider font-bold text-white bg-gradient-to-r from-purple-800 to-black text-sm md:text-xl hover:underline">
                                     REGISTER
                                 </button>
                             </div>
