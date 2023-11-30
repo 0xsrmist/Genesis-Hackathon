@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import arrow from '../../assets/icons/arrow.svg'
 
 const FaqItem = ({ question, answer }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -35,17 +36,19 @@ const FaqItem = ({ question, answer }) => {
             top: '50%',
             right: '15px',
             transform: `translateY(-50%) rotate(${isOpen ? '180deg' : '0deg'})`, // Rotate arrow for open/close state
-            transition: 'transform 0.3s ease',
+            transition: '',
             fontSize: '1.5em',
           }}
         >
-          &#x2304;
+          <img src={arrow}/>
         </span>
       </div>
       {isOpen && (
         <div
           style={{
-            padding: '25px',
+            paddingLeft: '25px',
+            paddingRight: '25px',
+            paddingBottom: '25px',
             color: '#ffffff',
           }}
           className="faq-answer"
@@ -67,19 +70,31 @@ const FaqSection = () => {
       question: 'How do I install React?',
       answer: 'You can install React using npm or yarn. For example: npm install react',
     },
+    {
+      question: 'How do I install React?',
+      answer: 'You can install React using npm or yarn. For example: npm install react',
+    },
+    {
+      question: 'How do I install React?',
+      answer: 'You can install React using npm or yarn. For example: npm install react',
+    },
+    {
+      question: 'How do I install React?',
+      answer: 'You can install React using npm or yarn. For example: npm install react',
+    },
+    
     // Add more FAQ items as needed
   ];
 
   return (
     <div
       style={{
-        backgroundColor: '#120224',
         width: '60%',
         margin: '20px auto',
       }}
       className="faq-section"
     >
-      <h2>Frequently Asked Questions</h2>
+      <div className='text-lg font-bold text-center py-3 text-white'>FAQs</div>
       {faqData.map((item, index) => (
         <FaqItem key={index} question={item.question} answer={item.answer} />
       ))}
