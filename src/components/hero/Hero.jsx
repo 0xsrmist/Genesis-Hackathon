@@ -15,7 +15,10 @@ export default function Hero() {
             GENESIS
           </h1>
           <div className="w- flex flex-col h-115 items-center justify-center flex-shrink-0 text-white font-poppins text-20 font-semibold leading-normal pr-107">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolores quod maxime, corrupti pariatur vitae, temporibus eveniet eligendi impedit earum itaque non sunt deserunt nobis dolorem! Omnis tenetur cum dolores provident neque nemo fuga quod!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+            dolores quod maxime, corrupti pariatur vitae, temporibus eveniet
+            eligendi impedit earum itaque non sunt deserunt nobis dolorem! Omnis
+            tenetur cum dolores provident neque nemo fuga quod!
           </div>
         </div>
 

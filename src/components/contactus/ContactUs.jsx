@@ -1,26 +1,27 @@
-import React from 'react';
+import React from "react";
 
 const ContactUsSection = () => {
   return (
     <div
+      className="flex flex-col lg:flex-row"
       style={{
-        backgroundColor: '#120224',
-        color: '#ffffff',
-        padding: '50px',
-        display: 'flex',
-        justifyContent: 'space-between',
-        alignItems: 'center',
+        // backgroundColor: "#120224",
+        color: "#ffffff",
+        padding: "50px",
+        display: "flex",
+        justifyContent: "space-between",
+        alignItems: "center",
       }}
     >
       {/* Left side with two white colored rectangle boxes */}
       <div>
         <div
           style={{
-            backgroundColor: '#ffffff',
-            padding: '20px',
-            marginBottom: '20px',
-            width: '750px',
-            color: 'black', // Set text color to black
+            backgroundColor: "#ffffff",
+            padding: "20px",
+            marginBottom: "20px",
+            width: "750px",
+            color: "black", // Set text color to black
           }}
         >
           {/* Content of the first white rectangle box */}
@@ -30,9 +31,9 @@ const ContactUsSection = () => {
         </div>
         <div
           style={{
-            backgroundColor: '#ffffff',
-            padding: '20px',
-            color: 'black', // Set text color to black
+            backgroundColor: "#ffffff",
+            padding: "20px",
+            color: "black", // Set text color to black
           }}
         >
           {/* Content of the second white rectangle box */}
@@ -48,9 +49,9 @@ const ContactUsSection = () => {
           src="src\assets\images\Picture1.png" // Replace with the actual URL of your photo
           alt="Contact"
           style={{
-            borderRadius: '10px',
-            height: '450px',
-            width: '450px',
+            borderRadius: "10px",
+            height: "450px",
+            width: "450px",
           }}
         />
       </div>

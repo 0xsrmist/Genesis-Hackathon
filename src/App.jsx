@@ -9,7 +9,8 @@ import Sponsors from "./components/sponsors/Sponsors.jsx";
 import Prizes from "./components/prizes/Prizes.jsx";
 import Tracks from "./components/tracks/Tracks.jsx";
 import Hackathon from "./components/hackathon/Hackathon.jsx";
-
+import ContactUsSection from "./components/contactus/ContactUs.jsx";
+import Timeline from "./components/timeline/Timeline.jsx";
 function App() {
   return (
     <>
@@ -18,16 +19,17 @@ function App() {
         <Hero />
         <AboutUs />
         <Conference />
-        <Hackathon/>
-        <Prizes/>
-        <Tracks/>
-        <Sponsors/>
-        <Faqs/>
+        <Hackathon />
+        <Prizes />
+        <Tracks />
+        <Timeline />
+        <Sponsors />
+        <Faqs />
+        <ContactUsSection />
         <Footer />
       </div>
     </>
   );
 }
-
 
 export default App;
