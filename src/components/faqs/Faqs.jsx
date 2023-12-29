@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import arrow from '../../assets/icons/arrow.svg'
 import SectionTitle from '../../ui/sectiontitle/SectionTitle';
 
+// eslint-disable-next-line react/prop-types
 const FaqItem = ({ question, answer }) => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -41,7 +42,7 @@ const FaqItem = ({ question, answer }) => {
             fontSize: '1.5em',
           }}
         >
-          <img src={arrow}/>
+          <img src={arrow} />
         </span>
       </div>
       {isOpen && (
@@ -83,7 +84,7 @@ const FaqSection = () => {
       question: 'How do I install React?',
       answer: 'You can install React using npm or yarn. For example: npm install react',
     },
-    
+
     // Add more FAQ items as needed
   ];
 
@@ -96,7 +97,7 @@ const FaqSection = () => {
       className="faq-section flex flex-col gap-5"
     >
       <div className='flex items-center justify-center'>
-      <SectionTitle name={'FAQs'}/>
+        <SectionTitle name={'FAQs'} />
       </div>
       {faqData.map((item, index) => (
         <FaqItem key={index} question={item.question} answer={item.answer} />

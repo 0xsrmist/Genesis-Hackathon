@@ -1,5 +1,5 @@
 import logoImage from '../../assets/images/Genesis_logo.svg';
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 export default function Navbar() {
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);

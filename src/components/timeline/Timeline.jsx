@@ -1,4 +1,3 @@
-import React from "react";
 import SectionTitle from "../../ui/sectiontitle/SectionTitle";
 import { useState } from "react";
 

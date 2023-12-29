@@ -1,4 +1,3 @@
-import React from "react";
 import SectionTitle from "../../ui/sectiontitle/SectionTitle";
 import Card from "../../ui/card/Card";
 import technical_mock from "../../assets/images/technical_mock.svg";

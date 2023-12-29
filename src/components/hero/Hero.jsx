@@ -1,4 +1,3 @@
-import React from "react";
 import devfolio from "../../assets/icons/devfolio.png";
 import heroPhoto from "../../assets/images/heroSection.svg";
 import clipPathIcon from "../../assets/icons/clipPath.png";

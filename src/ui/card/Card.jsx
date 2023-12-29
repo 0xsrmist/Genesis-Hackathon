@@ -1,5 +1,5 @@
-import React from 'react'
 
+// eslint-disable-next-line react/prop-types
 const Card = ({ image, title, content }) => {
   return (
     <div className='flex items-center'>

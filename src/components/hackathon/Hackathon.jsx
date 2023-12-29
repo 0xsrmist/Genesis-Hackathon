@@ -1,4 +1,3 @@
-import React from 'react';
 import hackathonimage from '../../assets/images/hackathon.svg'
 import SectionTitle from '../../ui/sectiontitle/SectionTitle';
 

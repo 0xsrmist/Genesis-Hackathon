@@ -1,4 +1,3 @@
-import React from 'react';
 import conference from '../../assets/images/conference.svg'
 import SectionTitle from '../../ui/sectiontitle/SectionTitle';
 

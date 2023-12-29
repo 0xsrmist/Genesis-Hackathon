@@ -1,6 +1,6 @@
-import React from 'react'
 
-const SectionTitle = ({name}) => {
+// eslint-disable-next-line react/prop-types
+const SectionTitle = ({ name }) => {
     return (
         <div className='flex font-poppins'>
             <div className='relative'>
