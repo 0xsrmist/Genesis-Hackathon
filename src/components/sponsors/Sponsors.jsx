@@ -1,5 +1,6 @@
 import SectionTitle from '../../ui/sectiontitle/SectionTitle'
 import Card from '../../ui/card/Card'
+import sponsor from "../../assets/images/sponsor.png";
 
 const Sponsors = () => {
     return (
@@ -9,28 +10,76 @@ const Sponsors = () => {
                 <div className='flex flex-col gap-12' >
                     <span className='text-white text-2xl font-extrabold text-center tracking-wider'>PLATINUM</span>
                     <div className='flex justify-evenly flex-wrap gap-8'>
-                        <Card />
-                        <Card />
-                        <Card />
-                        <Card />
+                        <Card
+                            image={sponsor}
+                            title={"Coming Soon"}
+                            content={" "}
+                        />
+                        <Card
+                            image={sponsor}
+                            title={"Coming Soon"}
+                            content={" "}
+                        />
+                        <Card
+                            image={sponsor}
+                            title={"Coming Soon"}
+                            content={" "}
+                        />
+                        <Card
+                            image={sponsor}
+                            title={"Coming Soon"}
+                            content={" "}
+                        />
                     </div>
                 </div>
                 <div className='flex flex-col gap-12' >
                     <span className='text-white text-2xl font-extrabold text-center tracking-wider'>GOLD</span>
                     <div className='flex justify-evenly flex-wrap gap-8'>
-                        <Card />
-                        <Card />
-                        <Card />
-                        <Card />
+                        <Card
+                            image={sponsor}
+                            title={"Coming Soon"}
+                            content={" "}
+                        />
+                        <Card
+                            image={sponsor}
+                            title={"Coming Soon"}
+                            content={" "}
+                        />
+                        <Card
+                            image={sponsor}
+                            title={"Coming Soon"}
+                            content={" "}
+                        />
+                        <Card
+                            image={sponsor}
+                            title={"Coming Soon"}
+                            content={" "}
+                        />
                     </div>
                 </div>
                 <div className='flex flex-col gap-12' >
                     <span className='text-white text-2xl font-extrabold text-center tracking-wider'>SILVER</span>
                     <div className='flex justify-evenly flex-wrap gap-8'>
-                        <Card />
-                        <Card />
-                        <Card />
-                        <Card />
+                        <Card
+                            image={sponsor}
+                            title={"Coming Soon"}
+                            content={" "}
+                        />
+                        <Card
+                            image={sponsor}
+                            title={"Coming Soon"}
+                            content={" "}
+                        />
+                        <Card
+                            image={sponsor}
+                            title={"Coming Soon"}
+                            content={" "}
+                        />
+                        <Card
+                            image={sponsor}
+                            title={"Coming Soon"}
+                            content={" "}
+                        />
                     </div>
                 </div>
             </div>

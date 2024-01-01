@@ -10,7 +10,7 @@ export default function Navbar() {
 
     return (
         <>
-            <div className="flex flex-col gap-3 p-3">
+            <div className="flex flex-col w-full gap-3 p-3">
                 <nav className="flex-col md:flex-row flex justify-between w-full">
                     <div className="w-full flex justify-between items-center">
                         <div className="md:hidden hover:drop-shadow-md">

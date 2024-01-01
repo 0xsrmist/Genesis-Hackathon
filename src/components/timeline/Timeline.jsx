@@ -6,16 +6,16 @@ export default function Timeline() {
   const [step, setstep] = useState(0)
 
   return (
-    <div className="flex flex-col gap-12 p-12 lg:mx-52 items-center justify-center">
+    <div className="flex flex-col gap-12  items-center justify-center">
       <SectionTitle name={"TIMELINE"} />
-      <div className="TimelineContent flex flex-col gap-8">
-        <div className="daysHeading flex items-cente text-blue-200 sm:justify-between  gap-4">
+      <div className="flex flex-col gap-8 justify-center items-center">
+        <div className="flex items-center text-blue-200 sm:justify-between  gap-4">
           <button
             onClick={() => { setstep(0) }}
-            className={`day1 border-b-2 px-20 p-3 ${step === 0 ? 'border-purple-600 text-purple-600' : 'border-white text-white'}`}
+            className={`day1 border-b-2 px-2 p-3 ${step === 0 ? 'border-purple-600 text-purple-600' : 'border-white text-white'}`}
           >
             <div className="flex flex-col">
-              <span className="w-148 h-43 flex-shrink-0 font-Poppins text-2xl font-bold">
+              <span className="flex-shrink-0 font-Poppins text-2xl font-bold">
                 DAY 01
               </span>
               <span className="font-Poppins text-sm font-semibold">
@@ -23,9 +23,9 @@ export default function Timeline() {
               </span>
             </div>
           </button>
-          <button onClick={() => { setstep(1) }} className={`day1 border-b-2 px-20 p-3 ${step === 1 ? 'border-purple-600 text-purple-600' : 'border-white text-white'}`}>
+          <button onClick={() => { setstep(1) }} className={`day1 border-b-2 px-2 p-3 ${step === 1 ? 'border-purple-600 text-purple-600' : 'border-white text-white'}`}>
             <div className="flex flex-col">
-              <span className="w-148 h-43 flex-shrink-0 font-Poppins text-2xl font-bold">
+              <span className="flex-shrink-0 font-Poppins text-2xl font-bold">
                 DAY 02
               </span>
               <span className="font-Poppins text-sm font-semibold">
@@ -34,7 +34,7 @@ export default function Timeline() {
             </div>
           </button>
         </div>
-        <div className="tableContent flex flex-col gap-4 flex-shrink-0 rounded-2xl bg-gray-300 overflow-hidden">
+        <div className="max-w-[900px] flex flex-col gap-4 flex-shrink-0 rounded-2xl bg-gray-300 overflow-hidden">
 
           {/* Heading */}
           <div

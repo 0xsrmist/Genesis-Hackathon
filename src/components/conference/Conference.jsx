@@ -4,7 +4,7 @@ import SectionTitle from '../../ui/sectiontitle/SectionTitle';
 function Conference() {
   return (
     <div className='flex flex-col gap-y-12'>
-      <div className='w-full flex justify-end px-20'>
+      <div className='w-full flex justify-center md:justify-end md:px-96'>
         <SectionTitle name={'CONFERENCE'} />
       </div>
       <div className='flex flex-col items-center md:items-start md:flex-row justify-evenly'>

@@ -90,11 +90,12 @@ const FaqSection = () => {
 
   return (
     <div
+      id='faqs'
       style={{
-        width: '60%',
+        width: '70%',
         margin: '20px auto',
       }}
-      className="faq-section flex flex-col gap-5"
+      className="flex flex-col gap-5 max-w-[800px]"
     >
       <div className='flex items-center justify-center'>
         <SectionTitle name={'FAQs'} />
