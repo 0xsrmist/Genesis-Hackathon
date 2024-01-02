@@ -1,7 +1,6 @@
 import devfolio from "../../assets/icons/devfolio.png";
 import heroPhoto from "../../assets/images/heroSection.svg";
 import clipPathIcon from "../../assets/icons/clipPath.png";
-import dateIcon from "../../assets/icons/date.png";
 import discordIcon from "../../assets/icons/discordIcon.svg";
 import heroSmallPhoto from "../../assets/images/hero_smallbox.svg";
 import calendar from "../../assets/images/calendar.png";
@@ -30,7 +29,7 @@ export default function Hero() {
             </span>
           </div>
           <div className="flex flex-row gap-x-4 items-center">
-            <img className="w-12" src={clipPathIcon} alt="venue"/>
+            <img className="w-12" src={clipPathIcon} alt="venue" />
             <span className="text-white font-bold leading-normal">
               MINI HALL-2
             </span>
