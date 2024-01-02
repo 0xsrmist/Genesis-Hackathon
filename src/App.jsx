@@ -10,23 +10,23 @@ import Hackathon from "./components/hackathon/Hackathon.jsx";
 import ContactUsSection from "./components/contactus/ContactUs.jsx";
 import Timeline from "./components/timeline/Timeline.jsx";
 function App() {
-  return (
-    <>
-      <div className="max-w-[1500px] justify-center items-center flex flex-col gap-y-20 p-2 w-full">
-        <Navbar />
-        <Hero/>
-        <AboutUs />
-        <Conference />
-        <Hackathon />
-        <Prizes />
-        <Timeline />
-        <Sponsors />
-        <Faqs />
-        <ContactUsSection />
-        <Footer />
-      </div>
-    </>
-  );
+	return (
+		<>
+			<div className="justify-center items-center flex flex-col gap-y-20 p-2 w-full">
+				<Navbar />
+				<Hero />
+				<AboutUs />
+				<Conference />
+				<Hackathon />
+				<Prizes />
+				<Timeline />
+				<Sponsors />
+				<Faqs />
+				<ContactUsSection />
+				<Footer />
+			</div>
+		</>
+	);
 }
 
 export default App;
