@@ -17,7 +17,7 @@ function App() {
 				<Hero />
 				<AboutUs />
 				<Conference />
-				<Hackathon />
+				{/* <Hackathon /> */}
 				{/* <Prizes /> */}
 				<Timeline />
 				<Sponsors />
