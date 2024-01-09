@@ -13,10 +13,10 @@ export default function Hero() {
 		>
 			<div className="section1 p-4 lg:p-16 lg:w-3/5 flex flex-col gap-y-10">
 				<div className="about flex flex-col text-center lg:text-start">
-					<h1 className=" text-7xl flex-shrink-0 font-poppins text-101 font-bold leading-46.2 tracking-wide bg-gradient-to-r from-indigo-800 to-teal-400  bg-clip-text text-transparent mb-2">
+					<h1 className=" text-7xl flex-shrink-0 font-poppins font-bold tracking-wide bg-gradient-to-r from-indigo-800 to-teal-400  bg-clip-text text-transparent mb-2">
 						GENESIS
 					</h1>
-					<div className="flex flex-col h-115 items-center justify-center flex-shrink-0 text-white font-poppins text-20 font-semibold leading-normal pr-107">
+					<div className="flex flex-col items-center justify-center flex-shrink-0 text-white font-poppins text-20 font-semibold leading-normal pr-107">
 						Join us for the Genesis experience, a 2-day journey at TPHxSRMIST&apos;s
 						newest hackfest. Harness your talent and dive into the realm of
 						blockchain and web3 technologies, and be part in shaping India&apos;s
@@ -33,7 +33,7 @@ export default function Hero() {
 							30<sup>TH</sup> TO 31<sup>ST</sup>JAN 2024
 						</span>
 					</div>
-					<div className="flex flex-row gap-x-4 items-center">
+					<div className="flex flex-row gap-x-4 items-center ml-[-10px]">
 						<img className="w-12" src={clipPathIcon} alt="venue" />
 						<span className="text-white font-bold leading-normal">
 							MINI HALL-2
@@ -41,7 +41,7 @@ export default function Hero() {
 					</div>
 				</div>
 
-				<div className="hero-buttons -pl-10 flex flex-col gap-y-4 sm:flex-row justify-center">
+				<div className="hero-buttons -pl-10 flex flex-col gap-y-4 sm:flex-row justify-center lg:justify-start">
 					<button
 						className="w-90 h-12 flex-shrink-0 rounded-full bg-[#1A72FF] px-4 py-8 flex items-center justify-center font-semibold max-w-1/2 w-auto mr-2"
 						onClick={() =>
@@ -57,7 +57,7 @@ export default function Hero() {
 					</button>
 
 					<button
-						className="w-90 h-12 flex-shrink-0 rounded-full bg-[#5865F2] px-6 py-8 font-semibold ml-3 flex items-center max-w-1/2 w-auto"
+						className="w-90 h-12 flex-shrink-0 rounded-full bg-[#5865F2] px-6 py-8 font-semibold ml-3 flex justify-center items-center max-w-1/2 w-auto"
 						onClick={() =>
 							window.open("https://discord.com/invite/p4FAJdhQRv", "_blank")
 						}
@@ -75,9 +75,8 @@ export default function Hero() {
 				<img
 					src={heroPhoto}
 					alt="hero"
-					className="inline-flex pt-12 max-w-80 "
+					className="inline-flex pt-12"
 				/>
-				<img src={heroSmallPhoto} alt="small box" className="mx-auto w-8" />
 			</div>
 		</div>
 	);
