@@ -1,4 +1,5 @@
 import SectionTitle from "../../ui/sectiontitle/SectionTitle";
+import Image from '../../assets/images/Picture1.png'
 
 const ContactUsSection = () => {
 	return (
@@ -41,7 +42,7 @@ const ContactUsSection = () => {
 				</div>
 				<div>
 					<img
-						src="src\assets\images\Picture1.png"
+						src={Image}
 						alt="Contact"
 						style={{
 							borderRadius: "10px",
