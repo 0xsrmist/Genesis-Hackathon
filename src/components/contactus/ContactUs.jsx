@@ -17,9 +17,13 @@ const ContactUsSection = () => {
 						}}
 						className="rounded-md"
 					>
-						<h3>Contact Information</h3>
-						<p>Email: tphsrmist@gmail.com</p>
-						<p>Phone: +91-9352917041, +91-6393221408</p>
+						<h3 className="text-xl font-bold mb-5">Contact Information</h3>
+						<div>
+							<span className=" font-semibold">Email:</span>
+							<span> tphsrmist@gmail.com</span>
+						</div>
+						<span className=" font-semibold">Phone:</span>
+						<span> +91-9352917041, +91-6393221408</span>
 					</div>
 					<div
 						style={{
@@ -29,9 +33,10 @@ const ContactUsSection = () => {
 						}}
 						className="rounded-md"
 					>
-						<h3>Address</h3>
-						<p>123 Street Name</p>
-						<p>City, Country</p>
+						<h3 className="text-xl font-bold mb-5">Address</h3>
+
+						<p>SRM University</p>
+						<p>Kattankulathur, Chennai</p>
 					</div>
 				</div>
 				<div>

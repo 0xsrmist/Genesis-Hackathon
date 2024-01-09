@@ -18,7 +18,7 @@ function App() {
 				<AboutUs />
 				<Conference />
 				<Hackathon />
-				<Prizes />
+				{/* <Prizes /> */}
 				<Timeline />
 				<Sponsors />
 				<Faqs />
