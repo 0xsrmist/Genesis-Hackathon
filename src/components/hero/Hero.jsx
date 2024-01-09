@@ -17,9 +17,9 @@ export default function Hero() {
 						GENESIS
 					</h1>
 					<div className="flex flex-col h-115 items-center justify-center flex-shrink-0 text-white font-poppins text-20 font-semibold leading-normal pr-107">
-						Join us for the Genesis experience, a 2-day journey at TPHxSRMIST's
+						Join us for the Genesis experience, a 2-day journey at TPHxSRMIST&apos;s
 						newest hackfest. Harness your talent and dive into the realm of
-						blockchain and web3 technologies, and be part in shaping India's
+						blockchain and web3 technologies, and be part in shaping India&apos;s
 						web3 culture. Join hands with fellow students, learn, create, and
 						showcase your skills in this electrifying event. Be a trailblazer in
 						the future of technology
