@@ -56,8 +56,17 @@ export default function Hero() {
 						<span className="ml-1">Apply from Devfolio</span>
 					</button>
 
-					<button className="w-90 h-12 flex-shrink-0 rounded-full bg-[#5865F2] px-6 py-8 font-semibold ml-3 flex items-center max-w-1/2 w-auto">
-						<img src={discordIcon} alt="" className="w-8 h-8 flex-shrink-0" />
+					<button
+						className="w-90 h-12 flex-shrink-0 rounded-full bg-[#5865F2] px-6 py-8 font-semibold ml-3 flex items-center max-w-1/2 w-auto"
+						onClick={() =>
+							window.open("https://discord.com/invite/p4FAJdhQRv", "_blank")
+						}
+					>
+						<img
+							src={discordIcon}
+							alt="Discord"
+							className="w-8 h-8 flex-shrink-0"
+						/>
 						<span className="ml-4">Join Discord</span>
 					</button>
 				</div>

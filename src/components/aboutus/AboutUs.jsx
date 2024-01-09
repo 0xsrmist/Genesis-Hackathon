@@ -1,4 +1,5 @@
 import SectionTitle from "../../ui/sectiontitle/SectionTitle";
+import genesis_logo from "../../assets/images/Genesis_title.png";
 
 const AboutUs = () => {
 	return (
@@ -13,7 +14,8 @@ const AboutUs = () => {
 					a unique opportunity for students to learn, collaborate, and showcase
 					their skills in the field of blockchain and web3 technologies.
 				</div>
-				<div className="bg-[#D9D9D9] w-[40vw] h-52"></div>
+				{/* <div className="bg-[#D9D9D9] w-[40vw] h-52"></div> */}
+				<img src={genesis_logo} className="w-96 h-44 mb-10" alt="" />
 			</div>
 		</div>
 	);

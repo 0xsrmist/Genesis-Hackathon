@@ -46,25 +46,25 @@ export default function Navbar() {
 							{/* Links for larger screens */}
 							<a
 								href="#home"
-								className="hover:underline hover:text-gray-300 font-normal"
+								className="hover:underline hover:text-gray-300 font-bold"
 							>
 								Home
 							</a>
 							<a
 								href="#about"
-								className="hover:underline hover:text-gray-300 font-normal"
+								className="hover:underline hover:text-gray-300 font-bold"
 							>
 								About Us
 							</a>
 							<a
 								href="#faqs"
-								className="hover:underline hover:text-gray-300 font-normal"
+								className="hover:underline hover:text-gray-300 font-bold"
 							>
 								FAQs
 							</a>
 							<a
 								href="#contact"
-								className="hover:underline hover:text-gray-300 font-normal"
+								className="hover:underline hover:text-gray-300 font-bold"
 							>
 								Contact
 							</a>
