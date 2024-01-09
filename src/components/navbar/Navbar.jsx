@@ -70,7 +70,15 @@ export default function Navbar() {
 							</a>
 						</div>
 						<div className="hidden md:flex">
-							<button className=" rounded-full py-3 px-8 bg-gradient-to-r from-purple-800 to-black tracking-wider font-bold text-white text-xl hover:underline">
+							<button
+								className=" rounded-full py-3 px-8 bg-gradient-to-r from-purple-800 to-black tracking-wider font-bold text-white text-xl hover:underline"
+								onClick={() =>
+									window.open(
+										"https://genesis-tphsrmist.devfolio.co/",
+										"_blank"
+									)
+								}
+							>
 								REGISTER
 							</button>
 						</div>
