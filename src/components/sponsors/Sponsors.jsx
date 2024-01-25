@@ -8,6 +8,10 @@ import berachain from "../../assets/images/berachain_logo.svg";
 import polygon from "../../assets/images/polygon-logo.svg";
 import replit from "../../assets/images/replit.svg";
 import MDD_logo from "../../assets/images/mov.svg";
+import dao from "../../assets/images/dao.png";
+import hyperlane from "../../assets/images/hyperlane.png";
+import codeate from "../../assets/images/Codeate.png";
+import Onboarding from "../../assets/images/Onboarding_Club.svg";
 
 const Sponsors = () => {
 	return (
@@ -44,6 +48,17 @@ const Sponsors = () => {
 					</span>
 					<div className="flex justify-evenly flex-wrap gap-8">
 						<img src={replit} alt="" className="w-80 h-40" />
+					</div>
+				</div>
+				<div className="flex flex-col gap-12">
+					<span className="text-white text-2xl font-extrabold text-center tracking-wider">
+						COMMUNITY PARTNERS
+					</span>
+					<div className="flex justify-evenly flex-wrap gap-8 items-center">
+						<img src={dao} alt="" className="w-auto h-80" />
+						<img src={hyperlane} alt="" className="w-80 h-52" />
+						<img src={codeate} alt="" className="w-[30vw] h-40" />
+						<img src={Onboarding} alt="" className="w-[30vw] h-52" />
 					</div>
 				</div>
 			</div>
