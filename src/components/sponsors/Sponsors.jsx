@@ -6,7 +6,7 @@ import circle from "../../assets/images/circle_logo.png";
 import xdc from "../../assets/images/XDC_Network_logo.png";
 import berachain from "../../assets/images/berachain_logo.svg";
 import polygon from "../../assets/images/polygon-logo.svg";
-import replit from "../../assets/images/replit.svg";
+import replit from "../../assets/images/replit-light.png";
 import MDD_logo from "../../assets/images/mov.svg";
 import dao from "../../assets/images/dao.png";
 import hyperlane from "../../assets/images/hyperlane.png";
@@ -47,7 +47,7 @@ const Sponsors = () => {
 						SILVER
 					</span>
 					<div className="flex justify-evenly flex-wrap gap-8">
-						<img src={replit} alt="" className="w-80 h-40" />
+						<img src={replit} alt="" className="w-80 h-20 my-10" />
 					</div>
 				</div>
 				<div className="flex flex-col gap-12">
